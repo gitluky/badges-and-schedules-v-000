@@ -11,7 +11,7 @@ def assign_rooms(array)
   room_assignment = []
   array.each_with_index { |name, index| room_assignment << "Hello, #{name}! You'll be assigned to room #{index+1}!"}
   room_assignment
-end*/
+end
 
 def printer(array)
   batch_badge_creator(array).each { |badge| puts "#{badge}"}
